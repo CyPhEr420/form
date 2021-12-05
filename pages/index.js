@@ -69,7 +69,7 @@ export default function Home() {
     const pickup = location;
     fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${pickup}.json?` +
       new URLSearchParams({
-        access_token: "pk.eyJ1IjoiY3lwaGVydmsiLCJhIjoiY2t3a281Y3ZpMWkwcTJvbWx5bjd3ZWFmeiJ9.dNgWHqCrkHnDbNubm0EzRw",
+        access_token: "<apikey>",
         limit: 1
       })
     )
